@@ -17,20 +17,12 @@
         <script src="bower_components/angularfire/dist/angularfire.min.js"></script>
 
     </head>
-    <body ng-controller="SeasonRecaps as recaps">
+    <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <h3>World's Simplest Unit Test</h3>
-        <p>1 + 2 = {{ 1 + 2 }}</p>
-        <hr>
-
-        <h3>World's Most Inaccurate Baseball Eras</h3>
-        <dl class="dl-horizontal" ng-repeat="era in recaps.eras">
-            <dt>{{era.name}}</dt>
-            <dd>{{era.years}}</dd>
-        </dl>
+        <div ng-view></div>
 
         <script src="js/main.js"></script>
         <script type="text/javascript" src="app/app.js"></script>
