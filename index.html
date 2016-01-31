@@ -1,0 +1,38 @@
+<!doctype html>
+<html ng-app="cheatSheet">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Baseball Cheat Sheet</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="bower_components/angular-route/angular-route.js"></script>
+
+        <script src="bower_components/firebase/firebase.js"></script>
+        <script src="bower_components/angularfire/dist/angularfire.min.js"></script>
+
+    </head>
+    <body ng-controller="SeasonRecaps as recaps">
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <h3>World's Simplest Unit Test</h3>
+        <p>1 + 2 = {{ 1 + 2 }}</p>
+        <hr>
+
+        <h3>World's Most Inaccurate Baseball Eras</h3>
+        <dl class="dl-horizontal" ng-repeat="era in recaps.eras">
+            <dt>{{era.name}}</dt>
+            <dd>{{era.years}}</dd>
+        </dl>
+
+        <script src="js/main.js"></script>
+        <script type="text/javascript" src="app/app.js"></script>
+    </body>
+</html>
