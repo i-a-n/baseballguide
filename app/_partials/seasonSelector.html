@@ -1,7 +1,20 @@
-<h3>World's Most Inaccurate Baseball Eras</h3>
-<table class='table'>
-    <tr ng-repeat="era in eras">
-        <td>{{era.name}}</td>
-        <td>{{era.years}}</td>
-    </tr>
-</table>
+<h3>World's Most Inaccurate Baseball Eras [{{eraSelected}}] [{{eraParam}}]</h3>
+
+<!-- pick an era, set it using selectEra -->
+<div ng-hide="eraSelected">
+    <li ng-repeat="era in eras">
+        <div ng-click="selectEra(era.eraID)">
+            {{era.name}}
+            <span class="label label-default">{{era.years}}</span>
+        </div>
+    </li>
+</div>
+
+<!-- pick a season, goes to new controller -->
+<div ng-show="eraSelected">
+    <!-- unset era to go back to era select screen -->
+    <button class="btn" ng-click="selectEra(0)">back</button>
+    <li ng-repeat="season in seasonData | filter:filterByEra">
+        <a href="#/seasons/{{season.seasonID}}">{{ season.year }}</a>
+    </li>
+</div>
