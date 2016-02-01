@@ -2,52 +2,61 @@
 (function() {
     var app = angular.module("cheatSheet", ["firebase","ngRoute"]);
 
-    app.controller("SeasonSelector", function($scope, $firebaseObject, $routeParams) {
+    app.controller("EraSelector", function($scope, $firebaseObject, $routeParams) {
         $scope.eras = eraData;          // replace with firebase
-        $scope.eraSelected = 0;
-        $scope.seasonData = seasonData; // replace with firebase
+    });
 
-        // helper function to set which era to dive into
-        $scope.selectEra = function(era) {
-            $scope.eraSelected = era;
-        };
+    app.controller("SeasonSelector", function($scope, $firebaseObject, $routeParams) {
+        $scope.seasonData = seasonData; // replace with firebase
+        $scope.eras = eraData;          // replace with firebase
+
+        $scope.eraSlug = $routeParams.eraSlug;
+
+        $scope.eraObject = $scope.eras.filter(function (era) {
+            return era.slug == $scope.eraSlug;
+        });
 
         // filter to only display seasons that match selected era
         $scope.filterByEra = function(season) {
-            return season.eraID === $scope.eraSelected;
+            return season.eraID == $scope.eraObject[0].eraID;
         };
     });
+
     app.controller("SeasonDetail", function($scope, $firebaseObject, $routeParams) {
-        $scope.seasonID = $routeParams.seasonID;
+        $scope.seasonYear = $routeParams.seasonYear;
         $scope.seasonData = seasonData;             // replace with firebase
 
         // whittle down the full seasons object to just the one we want
         // mayyyybe firebase can do this? probz not. wtv.
         $scope.seasonObject = $scope.seasonData.filter(function (season) {
-            return season.seasonID == $scope.seasonID;
+            return season.year == $scope.seasonYear;
         });
     });
 
     app.config(['$routeProvider',
         function($routeProvider) {
             $routeProvider.
-                when('/seasons', {
+                when('/', {
+                    templateUrl: 'app/_partials/eraSelector.html',
+                    controller: 'EraSelector'
+                }).
+                when('/era/:eraSlug', {
                     templateUrl: 'app/_partials/seasonSelector.html',
                     controller: 'SeasonSelector'
                 }).
-                when('/seasons/:seasonID', {
+                when('/seasons/:seasonYear', {
                     templateUrl: 'app/_partials/seasonDetail.html',
                     controller: 'SeasonDetail'
                   }).
                 otherwise({
-                    redirectTo: '/seasons'
+                    redirectTo: '/'
             });
         }
     ]);
 
     var eraData = [
-        { name: 'Dead Ball Era', years: '1912—1922', eraID: 1 },
-        { name: 'Babe Ruth Years', years: '1923—1938', eraID: 2 }
+        { name: 'Dead Ball Era', years: '1912—1922', eraID: 1, slug: 'dead-ball-era' },
+        { name: 'Babe Ruth Years', years: '1923—1938', eraID: 2, slug: 'babe-ruth-era' }
     ];
 
     var seasonData = [

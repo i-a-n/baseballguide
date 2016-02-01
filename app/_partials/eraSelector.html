@@ -1,0 +1,11 @@
+<h3>World's Most Inaccurate Baseball Eras</h3>
+
+<!-- pick an era, set it using selectEra -->
+<div>
+    <li ng-repeat="era in eras">
+        <a href="#/era/{{era.slug}}">
+            {{era.name}}
+            <span class="label label-default">{{era.years}}</span>
+        </a>
+    </li>
+</div>
