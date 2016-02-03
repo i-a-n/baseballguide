@@ -1,9 +1,8 @@
 <h3>World's Most Inaccurate Baseball Eras</h3>
-<b>{{ fbEras }}</b>
 
 <!-- pick an era, set it using selectEra -->
 <div>
-    <li ng-repeat="(slug,era) in fbEras">
+    <li ng-repeat="(slug,era) in eras">
         <a href="#/era/{{slug}}">
             {{era.name}}
             <span class="label label-default">{{era.yearStart}} - {{era.yearEnd}}</span>

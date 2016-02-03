@@ -3,8 +3,7 @@
     var app = angular.module("cheatSheet", ["firebase","ngRoute"]);
 
     app.controller("EraSelector", function($scope, $firebaseObject, $routeParams) {
-        $scope.eras = eraData;          // replace with firebase
-        $scope.fbEras = $firebaseObject(eraRef);
+        $scope.eras = $firebaseObject(eraRef);
 
     });
 
