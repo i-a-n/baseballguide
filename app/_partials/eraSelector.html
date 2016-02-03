@@ -1,6 +1,6 @@
-<h3>World's Most Inaccurate Baseball Eras</h3>
+<!--<h3>World's Most Inaccurate Baseball Eras</h3>-->
 
-<!-- pick an era, set it using selectEra -->
+<!-- pick an era, set it using selectEra
 <div>
     <li ng-repeat="(slug,era) in eras">
         <a href="#/era/{{slug}}">
@@ -8,4 +8,16 @@
             <span class="label label-default">{{era.yearStart}} - {{era.yearEnd}}</span>
         </a>
     </li>
-</div>
+</div> -->
+
+<md-list>
+    <md-subheader class="md-no-sticky">World's Most Inaccurate Baseball Eras</md-subheader>
+    <md-list-item class="md-3-line" ng-repeat="(slug,era) in eras" ng-href="#/era/{{slug}}">
+        <img ng-src="{{}}" class="md-avatar--nerf" alt="{{}}" />
+        <div class="md-list-item-text" layout="column">
+            <h3>{{ era.name }}</h3>
+            <p>{{ era.yearStart +"&mdash;"+ era.yearEnd}}</p>
+        </div>
+    </md-list-item>
+    <md-divider></md-divider>
+</md-list>

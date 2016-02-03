@@ -3,11 +3,12 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Baseball Cheat Sheet</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+        <title>Baseball Cheat Sheet</title>
+
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="/bower_components/angular-material/angular-material.css">
+
         <link rel="stylesheet" href="css/style.css">
 
         <script src="bower_components/angular/angular.js"></script>
@@ -16,14 +17,26 @@
         <script src="bower_components/firebase/firebase.js"></script>
         <script src="bower_components/angularfire/dist/angularfire.min.js"></script>
 
+        <script src="bower_components/angular-aria/angular-aria.js"></script>
+        <script src="bower_components/angular-animate/angular-animate.js"></script>
+        <script src="bower_components/angular-material/angular-material.js"></script>
+
     </head>
     <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
-        <div ng-view></div>
-
+        <md-content>
+            <md-toolbar>
+                <div class="md-toolbar-tools">
+                    <md-button class="md-icon-button" aria-label="Settings">
+                        <md-icon md-svg-icon="img/icons/menu.svg"></md-icon>
+                    </md-button>
+                    <h2>
+                        <span>Baseball Cheat Sheet</span>
+                    </h2>
+                    <span flex></span>
+                </div>
+            </md-toolbar>
+            <div ng-view></div>
+        </md-content>
         <script src="js/main.js"></script>
         <script type="text/javascript" src="app/app.js"></script>
     </body>

@@ -1,19 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 body {
-  font-family: 'Source Serif Pro', 'Adobe Garamond', 'Georgia', sans-serif;
-  font-size: 18px;
+  margin: 0;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, sans-serif;
-  font-weight: 800;
+.masthead {
+  margin: 0 auto;
+  text-align: center;
 }
-p {
-  font-size: 18px;
-  line-height: 20px;
+md-grid-list {
+  margin: 32px;
 }

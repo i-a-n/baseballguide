@@ -1,4 +1,39 @@
-<h3>{{ seasonObject.year }} Season</h3>
-<p><b>{{ seasonObject.championName }}</b> won the World Series.</p>
+<div class='masthead'>
+    <h1>{{ seasonObject.year }} Season</h1>
+    <h3>{{ seasonObject.championName }}</h3>
+    <h4>WORLD CHAMPIONS</h4>
+</div>
+<md-divider></md-divider>
+
+<!--<p><b>{{ seasonObject.championName }}</b> won the World Series.</p>
 <p><b>World Seies Recap:</b>{{ seasonObject.wsRecap }}</p>
-<p><b>Season Recap:</b>{{ seasonObject.seasonRecap }}</p>
+<p><b>Season Recap:</b>{{ seasonObject.seasonRecap }}</p>-->
+
+<md-grid-list
+    md-cols-xs="1" md-cols-sm="2" md-cols-gt-sm="4"
+    md-row-height-gt-md="5:2" md-row-height="3:2"
+    md-gutter="12px" md-gutter-gt-sm="8px" >
+    <md-grid-tile class="gray" md-rowspan="3" md-colspan="2" md-colspan-sm="1">
+        <p>{{ seasonObject.wsRecap }}</p>
+        <md-grid-tile-footer>
+            <h3>#1: (3r x 2c)</h3>
+        </md-grid-tile-footer>
+    </md-grid-tile>
+    <md-grid-tile class="green">
+        <h3>MVP:</h3>
+        <md-grid-tile-footer>
+            <h3>NL</h3>
+        </md-grid-tile-footer>
+    </md-grid-tile>
+    <md-grid-tile class="yellow">
+        <md-grid-tile-footer>
+            <h3>AL</h3>
+        </md-grid-tile-footer>
+    </md-grid-tile>
+    <md-grid-tile class="red" md-rowspan="2" md-colspan="2" md-colspan-sm="1">
+        <p>{{ seasonObject.seasonRecap }}</p>
+        <md-grid-tile-footer>
+            <h3>#4: (2r x 2c)</h3>
+        </md-grid-tile-footer>
+    </md-grid-tile>
+</md-grid-list>

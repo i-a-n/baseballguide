@@ -1,6 +1,6 @@
 // angular goodness
 (function() {
-    var app = angular.module("cheatSheet", ["firebase","ngRoute"]);
+    var app = angular.module("cheatSheet", ["firebase","ngRoute","ngMaterial"]);
 
     app.controller("EraSelector", function($scope, $firebaseObject, $routeParams) {
         $scope.eras = $firebaseObject(eraRef);
