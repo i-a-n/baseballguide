@@ -4,33 +4,35 @@
 
     app.controller("EraSelector", function($scope, $firebaseObject, $routeParams) {
         $scope.eras = eraData;          // replace with firebase
+        $scope.fbEras = $firebaseObject(eraRef);
+
     });
 
-    app.controller("SeasonSelector", function($scope, $firebaseObject, $routeParams) {
-        $scope.seasonData = seasonData; // replace with firebase
-        $scope.eras = eraData;          // replace with firebase
+    app.controller("SeasonSelector", function($scope, $firebaseObject, $firebaseArray, $routeParams) {
+        var eraSlug = $routeParams.eraSlug;
 
-        $scope.eraSlug = $routeParams.eraSlug;
+        var eraRef = new Firebase( firebaseURL+"/data/eras/"+eraSlug );
+        var seasonRef = new Firebase( firebaseURL+"/data/seasons" );
 
-        $scope.eraObject = $scope.eras.filter(function (era) {
-            return era.slug == $scope.eraSlug;
-        });
+        $scope.eraObject = $firebaseObject(eraRef);
+        $scope.seasonData = $firebaseArray(seasonRef);
 
         // filter to only display seasons that match selected era
         $scope.filterByEra = function(season) {
-            return season.eraID == $scope.eraObject[0].eraID;
+            if ( (season.year >= $scope.eraObject.yearStart)
+                 && (season.year <= $scope.eraObject.yearEnd) ) {
+                return season;
+            }
         };
     });
 
     app.controller("SeasonDetail", function($scope, $firebaseObject, $routeParams) {
         $scope.seasonYear = $routeParams.seasonYear;
-        $scope.seasonData = seasonData;             // replace with firebase
+        $scope.seasonRef = new Firebase( firebaseURL+"/data/seasons/"+$scope.seasonYear );
 
         // whittle down the full seasons object to just the one we want
         // mayyyybe firebase can do this? probz not. wtv.
-        $scope.seasonObject = $scope.seasonData.filter(function (season) {
-            return season.year == $scope.seasonYear;
-        });
+        $scope.seasonObject = $firebaseObject($scope.seasonRef);
     });
 
     app.config(['$routeProvider',
@@ -54,16 +56,7 @@
         }
     ]);
 
-    var eraData = [
-        { name: 'Dead Ball Era', years: '1912—1922', eraID: 1, slug: 'dead-ball-era' },
-        { name: 'Babe Ruth Years', years: '1923—1938', eraID: 2, slug: 'babe-ruth-era' }
-    ];
-
-    var seasonData = [
-        { seasonID: 1, eraID: 1, year: "1912", champion: "Yankees" },
-        { seasonID: 2, eraID: 1, year: "1913", champion: "Red Sox" },
-        { seasonID: 3, eraID: 1, year: "1914", champion: "Tigers" },
-        { seasonID: 4, eraID: 2, year: "1923", champion: "Yankees" }
-    ];
+    var firebaseURL = "https://baseballcheatsheet.firebaseio.com";
+    var eraRef = new Firebase( firebaseURL+"/data/eras" );
 
 })();
