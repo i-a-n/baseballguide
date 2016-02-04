@@ -14,7 +14,9 @@
     md-row-height-gt-md="5:2" md-row-height="3:2"
     md-gutter="12px" md-gutter-gt-sm="8px" >
     <md-grid-tile class="gray" md-rowspan="3" md-colspan="2" md-colspan-sm="1">
-        <p>{{ seasonObject.wsRecap }}</p>
+        <md-content flex layout-padding>
+            <p>{{ seasonObject.wsRecap }}</p>
+        </md-content>
         <md-grid-tile-footer>
             <h3>#1: (3r x 2c)</h3>
         </md-grid-tile-footer>

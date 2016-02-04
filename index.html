@@ -24,18 +24,19 @@
     </head>
     <body>
         <md-content>
-            <md-toolbar>
+            <md-toolbar  ng-cloak>
                 <div class="md-toolbar-tools">
                     <md-button class="md-icon-button" aria-label="Settings">
                         <md-icon md-svg-icon="img/icons/menu.svg"></md-icon>
                     </md-button>
                     <h2>
-                        <span>Baseball Cheat Sheet</span>
+                        <a href="/#/">Baseball Cheat Sheet</a>
                     </h2>
                     <span flex></span>
                 </div>
             </md-toolbar>
-            <div ng-view></div>
+
+            <div ng-view ng-cloak></div>
         </md-content>
         <script src="js/main.js"></script>
         <script type="text/javascript" src="app/app.js"></script>

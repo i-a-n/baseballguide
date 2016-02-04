@@ -3,10 +3,18 @@
 body {
   margin: 0;
 }
+[ng\:cloak],
+[ng-cloak],
+[data-ng-cloak],
+[x-ng-cloak],
+.ng-cloak,
+.x-ng-cloak {
+  display: none !important;
+}
 .masthead {
   margin: 0 auto;
   text-align: center;
 }
-md-grid-list {
-  margin: 32px;
+md-grid-list md-grid-tile {
+  background: #f3f3f3;
 }

@@ -1,16 +1,4 @@
-<!--<h3>World's Most Inaccurate Baseball Eras</h3>-->
-
-<!-- pick an era, set it using selectEra
-<div>
-    <li ng-repeat="(slug,era) in eras">
-        <a href="#/era/{{slug}}">
-            {{era.name}}
-            <span class="label label-default">{{era.yearStart}} - {{era.yearEnd}}</span>
-        </a>
-    </li>
-</div> -->
-
-<md-list>
+<!-- <md-list>
     <md-subheader class="md-no-sticky">World's Most Inaccurate Baseball Eras</md-subheader>
     <md-list-item class="md-3-line" ng-repeat="(slug,era) in eras" ng-href="#/era/{{slug}}">
         <img ng-src="{{}}" class="md-avatar--nerf" alt="{{}}" />
@@ -20,4 +8,22 @@
         </div>
     </md-list-item>
     <md-divider></md-divider>
-</md-list>
+</md-list> -->
+
+
+<md-content class="md-padding" layout-sm="column" layout="row" layout-align="center">
+    <md-card flex-gt-sm="30" ng-repeat="(slug,era) in eras">
+        <img ng-src="http://placehold.it/180x90" class="md-card-image" alt="">
+        <md-card-title>
+            <md-card-title-text>
+                <span class="md-headline">{{era.name}}</span>
+                <span class="md-subhead">{{era.yearStart+"&mdash;"+era.yearEnd}}</span>
+            </md-card-title-text>
+        </md-card-title>
+        <md-card-actions layout="row" layout-align="end center">
+            <md-button class="" aria-label="Season details" ng-href="#/era/{{slug}}">
+                Explore
+            </md-button>
+        </md-card-actions>
+    </md-card>
+</md-content>
