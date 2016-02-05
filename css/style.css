@@ -15,9 +15,6 @@ body {
   margin: 0 auto;
   text-align: center;
 }
-md-grid-list {
-  margin: 18px;
-}
-md-grid-list md-grid-tile {
-  background: #f3f3f3;
+.cell.extraMargin {
+  margin: 16px;
 }
