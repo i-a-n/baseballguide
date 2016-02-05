@@ -9,7 +9,7 @@
 <p><b>Season Recap:</b>{{ seasonObject.seasonRecap }}</p>-->
 
 <div flex layout="row" layout-wrap layout-margin="5px" >
-    <div class='cell' flex-gt-md>
+    <div class='cell' flex-gt-sm>
         <md-card>
             <md-card-title>
                 <md-card-title-text>
@@ -43,7 +43,7 @@
             </md-card-content>
         </md-card>
     </div>
-    <div class='cell' flex flex-gt-md="20">
+    <div class='cell' flex flex-xs="100" flex-gt-sm="20">
         <md-list>
             <md-subheader class="md-no-sticky">National League</md-subheader>
             <md-list-item class="md-2-line" ng-repeat="i in ['1','2','3']">
@@ -55,7 +55,10 @@
             </md-list-item>
         </md-list>
     </div>
-    <div class='cell' flex flex-gt-md="20">
+    <div class='cell' flex flex-xs"100" hide-gt-xs>
+        <md-divider></md-divider>
+    </div>
+    <div class='cell' flex flex-xs="100" flex-gt-sm="20">
         <md-list>
             <md-subheader class="md-no-sticky">American League</md-subheader>
             <md-list-item class="md-2-line" ng-repeat="i in ['1','2','3']">
