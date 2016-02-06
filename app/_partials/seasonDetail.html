@@ -1,14 +1,17 @@
 <div class='masthead'>
-    <h1>{{ seasonObject.year }} Season</h1>
-    <h3>{{ seasonObject.championName }}</h3>
-    <h4>WORLD SERIES CHAMPIONS</h4>
+    <div class='copy'>
+        <h1>{{ seasonObject.year }} Season</h1>
+        <hr class='smallDivider'>
+        <h2>{{ seasonObject.championName }}</h2>
+        <h4>WORLD SERIES CHAMPIONS</h4>
+    </div>
 </div>
 
 <!--<p><b>{{ seasonObject.championName }}</b> won the World Series.</p>
 <p><b>World Seies Recap:</b>{{ seasonObject.wsRecap }}</p>
 <p><b>Season Recap:</b>{{ seasonObject.seasonRecap }}</p>-->
 
-<div flex layout="row" layout-wrap layout-margin="5px" >
+<div flex layout="row" layout-wrap layout-margin="5px" ng-bind-html="seasonObject">
     <div class='cell' flex-gt-sm>
         <md-card>
             <md-card-title>
@@ -18,7 +21,7 @@
             </md-card-title>
             <md-card-content>
                 <div flex layout='row'>
-                    <div flex-gt-xs="66" class='cell'>
+                    <div flex-gt-xs="66" class='cell bodyText'>
                         {{ seasonObject.wsRecap }}
                     </div>
                     <div flex="5" hide-xs class='cell'></div>
@@ -38,7 +41,7 @@
                     <span class="md-headline">Season Notes</span>
                 </md-card-title-text>
             </md-card-title>
-            <md-card-content>
+            <md-card-content class='bodyText'>
                 {{ seasonObject.seasonRecap }}
             </md-card-content>
         </md-card>
@@ -46,11 +49,11 @@
     <div class='cell' flex flex-xs="100" flex-gt-sm="20">
         <md-list>
             <md-subheader class="md-no-sticky">National League</md-subheader>
-            <md-list-item class="md-2-line" ng-repeat="i in ['1','2','3']">
-                <img ng-src="{{'#'}}" class="md-avatar" alt="{{'#'}}" />
+            <md-list-item class="md-2-line" ng-repeat="award in awardsObjectNL">
+                <img ng-src="/img/misc/trophy.svg" class="md-avatar" alt="{{ award.$id }}" />
                 <div class="md-list-item-text" layout="column">
-                    <h3>Aldous Huxley</h3>
-                    <p>Cy Young Winner</p>
+                    <h3>{{ award.$value }}</h3>
+                    <p>{{ award.$id }}</p>
                 </div>
             </md-list-item>
         </md-list>
@@ -61,11 +64,11 @@
     <div class='cell' flex flex-xs="100" flex-gt-sm="20">
         <md-list>
             <md-subheader class="md-no-sticky">American League</md-subheader>
-            <md-list-item class="md-2-line" ng-repeat="i in ['1','2','3']">
-                <img ng-src="{{'#'}}" class="md-avatar" alt="{{'#'}}" />
+            <md-list-item class="md-2-line" ng-repeat="award in awardsObjectAL">
+                <img ng-src="/img/misc/trophy.svg" class="md-avatar" alt="{{'#'}}" />
                 <div class="md-list-item-text" layout="column">
-                    <h3>James Joyce</h3>
-                    <p>Rookie of the Year</p>
+                    <h3>{{ award.$value }}</h3>
+                    <p>{{ award.$id }}</p>
                 </div>
             </md-list-item>
         </md-list>

@@ -1,6 +1,17 @@
 body {
-    //.serif;
+    .sans-serif;
     margin: 0;
+
+    /*** TYPOGRAPHY ***/
+    font-kerning: normal;
+    font-variant-ligatures: common-ligatures, contextual;
+    font-variant-numeric: oldstyle-nums, proportional-nums;
+    line-height: 1.35;
+    letter-spacing: 0.01em;
+    -moz-font-feature-settings: "kern", "liga", "clig", "calt", "onum", "pnum", "smcp", "c2sc";
+	-ms-font-feature-settings: "kern", "liga", "clig", "calt", "onum", "pnum", "smcp", "c2sc";
+	-webkit-font-feature-settings: "kern", "liga", "clig", "calt", "onum", "pnum", "smcp", "c2sc";
+	font-feature-settings: "kern", "liga", "clig", "calt", "onum", "pnum", "smcp", "c2sc";
 }
 
 h1,
@@ -16,10 +27,6 @@ p {
 
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
     display: none !important;
-}
-.masthead {
-    margin: 0 auto;
-    text-align: center;
 }
 
 .cell {

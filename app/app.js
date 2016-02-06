@@ -25,13 +25,21 @@
         };
     });
 
-    app.controller("SeasonDetail", function($scope, $firebaseObject, $routeParams) {
+    app.controller("SeasonDetail", function($scope, $firebaseObject, $firebaseArray, $routeParams) {
         $scope.seasonYear = $routeParams.seasonYear;
         $scope.seasonRef = new Firebase( firebaseURL+"/data/seasons/"+$scope.seasonYear );
 
-        // whittle down the full seasons object to just the one we want
-        // mayyyybe firebase can do this? probz not. wtv.
+        $scope.awardsNL = new Firebase( firebaseURL+"/data/seasons/"+$scope.seasonYear+"/awards/national" );
+        $scope.awardsAL = new Firebase( firebaseURL+"/data/seasons/"+$scope.seasonYear+"/awards/american" );
+
         $scope.seasonObject = $firebaseObject($scope.seasonRef);
+        $scope.awardsObjectNL = $firebaseArray( $scope.awardsNL );
+        $scope.awardsObjectAL = $firebaseArray( $scope.awardsAL );
+
+        document.styleSheets[0].addRule(
+            '.masthead:before',
+            'background-image:url(/img/seasons/2015/hero-1.jpg)'
+        );
     });
 
     app.config(['$routeProvider',
