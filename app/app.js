@@ -16,6 +16,19 @@
         $scope.eraObject = $firebaseObject(eraRef);
         $scope.seasonData = $firebaseArray(seasonRef);
 
+        $scope.getImgURL = function(year) {
+            var imgURL = "/img/seasons/" +year+ "/card-1.jpg";
+
+            // set card image. if no card image, set to default.
+            var request = new XMLHttpRequest();
+            request.open('HEAD', imgURL, false);
+            request.send();
+            if(request.status != 200) {
+                return "/img/seasons/card-default.jpg";
+            }
+            return imgURL;
+        }
+
         // filter to only display seasons that match selected era
         $scope.filterByEra = function(season) {
             if ( (season.year >= $scope.eraObject.yearStart)
@@ -36,9 +49,19 @@
         $scope.awardsObjectNL = $firebaseArray( $scope.awardsNL );
         $scope.awardsObjectAL = $firebaseArray( $scope.awardsAL );
 
+        var heroImgURL = "/img/seasons/" +$scope.seasonYear+ "/hero-1.jpg";
+
+        // set card image. if no card image, set to default.
+        var request = new XMLHttpRequest();
+        request.open('HEAD', heroImgURL, false);
+        request.send();
+        if(request.status != 200) {
+            heroImgURL = "/img/seasons/hero-default.jpg";
+        }
+
         document.styleSheets[0].addRule(
             '.masthead:before',
-            'background-image:url(/img/seasons/2015/hero-1.jpg)'
+            'background-image:url('+heroImgURL+')'
         );
     });
 
