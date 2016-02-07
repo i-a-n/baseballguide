@@ -106,8 +106,12 @@ body {
   overflow: hidden;
 }
 .bodyText {
-  font-family: 'Vollkorn', 'Adobe Garamond', 'Georgia', sans-serif;
-  line-height: 1.4em;
-  font-size: 1.3em;
+  line-height: 1.5em;
+  font-size: .95em;
   letter-spacing: 0;
+  font-weight: 100;
+}
+.md-headline.recapTitle {
+  font-family: 'Vollkorn', 'Adobe Garamond', 'Georgia', sans-serif;
+  font-style: italic;
 }

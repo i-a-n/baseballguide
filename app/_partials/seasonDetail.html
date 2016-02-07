@@ -16,13 +16,13 @@
         <md-card>
             <md-card-title>
                 <md-card-title-text>
-                    <span class="md-headline">Postseason Recap</span>
+                    <span class="md-headline  recapTitle">Postseason Recap</span>
                 </md-card-title-text>
             </md-card-title>
             <md-card-content>
                 <div flex layout='row'>
                     <div flex-gt-xs="66" class='cell bodyText'>
-                        {{ seasonObject.wsRecap }}
+                        <p ng-repeat="line in seasonObject.wsRecap">{{line}}</p>
                     </div>
                     <div flex="5" hide-xs class='cell'></div>
                     <div flex="30" hide-xs class='cell'>
@@ -38,11 +38,11 @@
         <md-card>
             <md-card-title>
                 <md-card-title-text>
-                    <span class="md-headline">Season Notes</span>
+                    <span class="md-headline  recapTitle">Season Notes</span>
                 </md-card-title-text>
             </md-card-title>
             <md-card-content class='bodyText'>
-                {{ seasonObject.seasonRecap }}
+                <p ng-repeat="line in seasonObject.seasonRecap">{{line}}</p>
             </md-card-content>
         </md-card>
     </div>
