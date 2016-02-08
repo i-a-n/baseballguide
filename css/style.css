@@ -105,6 +105,22 @@ body {
   position: absolute;
   overflow: hidden;
 }
+/** xs masthead: **/
+.masthead.xs {
+  height: 48vw;
+}
+.masthead.xs h1 {
+  font-size: 8vw;
+}
+.masthead.xs h2 {
+  font-size: 6vw;
+}
+.masthead.xs h4 {
+  font-size: 3vw;
+}
+.masthead.xs:before {
+  height: 48vw;
+}
 .bodyText {
   line-height: 1.5em;
   font-size: .95em;

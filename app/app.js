@@ -16,17 +16,13 @@
         $scope.eraObject = $firebaseObject(eraRef);
         $scope.seasonData = $firebaseArray(seasonRef);
 
-        $scope.getImgURL = function(year) {
-            var imgURL = "/img/seasons/" +year+ "/card-1.jpg";
-
-            // set card image. if no card image, set to default.
-            var request = new XMLHttpRequest();
-            request.open('HEAD', imgURL, false);
-            request.send();
-            if(request.status != 200) {
+        $scope.getImgURL = function(season) {
+            if( season.hasCardImg === 1 ) {
+                return "/img/seasons/" +season.year+ "/card-1.jpg";
+            }
+            else {
                 return "/img/seasons/card-default.jpg";
             }
-            return imgURL;
         }
 
         // filter to only display seasons that match selected era
@@ -38,9 +34,12 @@
         };
     });
 
-    app.controller("SeasonDetail", function($scope, $firebaseObject, $firebaseArray, $routeParams) {
+    app.controller("SeasonDetail", function($scope, $firebaseObject, $firebaseArray, $routeParams, $mdMedia) {
         $scope.seasonYear = $routeParams.seasonYear;
         $scope.seasonRef = new Firebase( firebaseURL+"/data/seasons/"+$scope.seasonYear );
+
+        // just to get breakpoints. kidna dumb this isn't better integrated
+        $scope.$mdMedia = $mdMedia;
 
         $scope.awardsNL = new Firebase( firebaseURL+"/data/seasons/"+$scope.seasonYear+"/awards/national" );
         $scope.awardsAL = new Firebase( firebaseURL+"/data/seasons/"+$scope.seasonYear+"/awards/american" );

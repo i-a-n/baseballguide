@@ -1,4 +1,4 @@
-<div class='masthead'>
+<div ng-class="{xs: $mdMedia('xs'), masthead:1}">
     <div class='copy'>
         <h1>{{ seasonObject.year }} Season</h1>
         <hr class='smallDivider'>
@@ -6,10 +6,6 @@
         <h4>WORLD SERIES CHAMPIONS</h4>
     </div>
 </div>
-
-<!--<p><b>{{ seasonObject.championName }}</b> won the World Series.</p>
-<p><b>World Seies Recap:</b>{{ seasonObject.wsRecap }}</p>
-<p><b>Season Recap:</b>{{ seasonObject.seasonRecap }}</p>-->
 
 <div flex layout="row" layout-wrap layout-margin="5px">
     <div class='cell' flex-gt-sm>
@@ -26,9 +22,14 @@
                     </div>
                     <div flex="5" hide-xs class='cell'></div>
                     <div flex="30" hide-xs class='cell'>
-                        <md-card-media>
+                        <md-card-media ng-show="seasonObject.hasBracket">
                             <div class="md-media-lg card-media">
-                                <img src="http://placehold.it/350x170" style="width:100%";>
+                                <a ng-href="/img/seasons/{{seasonObject.year}}/bracket-1.png"><img src="/img/seasons/{{seasonObject.year}}/bracket-1.png" style="width:100%";></a>
+                            </div>
+                        </md-card-media>
+                        <md-card-media ng-hide="seasonObject.hasBracket">
+                            <div class="md-media-lg card-media">
+                                [Bracket unavailable]
                             </div>
                         </md-card-media>
                     </div>
