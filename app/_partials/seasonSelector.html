@@ -1,17 +1,19 @@
 <md-subheader class="md-primary"><a href="/#/">&larr; Back to Eras</a></md-subheader>
-<md-content class="md-padding" layout-gt-xs="row" layout="column" layout-align="center" layout-wrap>
-    <md-card flex-gt-xs="25" ng-repeat="season in seasonData | filter:filterByEra | orderBy:'-year'">
-        <img ng-src="{{getImgURL(season)}}" class="md-card-image" alt="">
-        <md-card-title>
-            <md-card-title-text>
-                <span class="md-headline">{{season.year}}</span>
-                <span class="md-subhead">World Series Winner:<br>{{season.championName}}</span>
-            </md-card-title-text>
-        </md-card-title>
-        <md-card-actions layout="row" layout-align="end center">
-            <md-button class="" aria-label="Season details" ng-href="#/seasons/{{season.year}}">
-                Season Details
-            </md-button>
-        </md-card-actions>
-    </md-card>
+<md-content  layout-xs="column" layout="row" layout-wrap  layout-align="center center">
+    <div flex-gt-xs="33" ng-repeat="season in seasonData | filter:filterByEra | orderBy:'-year'">
+        <md-card>
+            <img ng-src="{{getImgURL(season)}}" class="md-card-image" alt="">
+            <md-card-title>
+                <md-card-title-text>
+                    <span class="md-headline">{{season.year}}</span>
+                    <span class="md-subhead">World Series Winner:<br>{{season.championName}}</span>
+                </md-card-title-text>
+            </md-card-title>
+            <md-card-actions layout="row" layout-align="end center">
+                <md-button class="" aria-label="Season details" ng-href="#/seasons/{{season.year}}">
+                    Season Details
+                </md-button>
+            </md-card-actions>
+        </md-card>
+    </div>
 </md-content>
