@@ -58,9 +58,8 @@
             heroImgURL = "/img/seasons/hero-default.jpg";
         }
 
-        document.styleSheets[0].addRule(
-            '.masthead:before',
-            'background-image:url('+heroImgURL+')'
+        document.styleSheets[0].insertRule(
+            '.masthead:before{background-image:url('+heroImgURL+')}', 0
         );
     });
 
