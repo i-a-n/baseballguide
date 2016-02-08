@@ -24,7 +24,7 @@
                     <div flex="30" hide-xs class='cell'>
                         <md-card-media ng-show="seasonObject.hasBracket">
                             <div class="md-media-lg card-media">
-                                <a ng-href="/img/seasons/{{seasonObject.year}}/bracket-1.png"><img src="/img/seasons/{{seasonObject.year}}/bracket-1.png" style="width:100%";></a>
+                                <a ng-href="img/seasons/{{seasonObject.year}}/bracket-1.png"><img src="img/seasons/{{seasonObject.year}}/bracket-1.png" style="width:100%";></a>
                             </div>
                         </md-card-media>
                         <md-card-media ng-hide="seasonObject.hasBracket">
@@ -51,7 +51,7 @@
         <md-list>
             <md-subheader class="md-no-sticky">National League</md-subheader>
             <md-list-item class="md-2-line" ng-repeat="award in awardsObjectNL">
-                <img ng-src="/img/misc/trophy.svg" class="md-avatar" alt="{{ award.$id }}" />
+                <img ng-src="img/misc/trophy.svg" class="md-avatar" alt="{{ award.$id }}" />
                 <div class="md-list-item-text" layout="column">
                     <h3>{{ award.$value }}</h3>
                     <p>{{ award.$id }}</p>
@@ -66,7 +66,7 @@
         <md-list>
             <md-subheader class="md-no-sticky">American League</md-subheader>
             <md-list-item class="md-2-line" ng-repeat="award in awardsObjectAL">
-                <img ng-src="/img/misc/trophy.svg" class="md-avatar" alt="{{'#'}}" />
+                <img ng-src="img/misc/trophy.svg" class="md-avatar" alt="{{'#'}}" />
                 <div class="md-list-item-text" layout="column">
                     <h3>{{ award.$value }}</h3>
                     <p>{{ award.$id }}</p>

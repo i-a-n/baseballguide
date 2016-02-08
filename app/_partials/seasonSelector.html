@@ -1,4 +1,4 @@
-<md-subheader class="md-primary"><a href="/#/">&larr; Back to Eras</a></md-subheader>
+<md-subheader class="md-primary"><a href="#/">&larr; Back to Eras</a></md-subheader>
 <md-content class="md-padding" layout-gt-xs="row" layout="column" layout-align="center" layout-wrap>
     <md-card flex-gt-xs="25" ng-repeat="season in seasonData | filter:filterByEra | orderBy:'-year'">
         <img ng-src="{{getImgURL(season)}}" class="md-card-image" alt="">
