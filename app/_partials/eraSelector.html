@@ -1,7 +1,7 @@
 <div class="md-padding" layout="row" layout-wrap layout-align="center" flex>
     <div flex flex-xs="100" flex-sm="35" flex-gt-sm="25" ng-repeat="(id,era) in eras | orderBy:'-yearStart'">
         <md-card>
-            <img ng-src="/img/eras/{{era.$id}}.jpg" class="md-card-image" alt="">
+            <img ng-src="img/eras/{{era.$id}}.jpg" class="md-card-image" alt="">
             <md-card-title>
                 <md-card-title-text>
                     <span class="md-headline">{{era.name}}</span>

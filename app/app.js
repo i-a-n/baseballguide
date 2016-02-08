@@ -18,10 +18,10 @@
 
         $scope.getImgURL = function(season) {
             if( season.hasCardImg === 1 ) {
-                return "/img/seasons/" +season.year+ "/card-1.jpg";
+                return "img/seasons/" +season.year+ "/card-1.jpg";
             }
             else {
-                return "/img/seasons/card-default.jpg";
+                return "img/seasons/card-default.jpg";
             }
         }
 
@@ -48,14 +48,14 @@
         $scope.awardsObjectNL = $firebaseArray( $scope.awardsNL );
         $scope.awardsObjectAL = $firebaseArray( $scope.awardsAL );
 
-        var heroImgURL = "/img/seasons/" +$scope.seasonYear+ "/hero-1.jpg";
+        var heroImgURL = "img/seasons/" +$scope.seasonYear+ "/hero-1.jpg";
 
         // set card image. if no card image, set to default.
         var request = new XMLHttpRequest();
         request.open('HEAD', heroImgURL, false);
         request.send();
         if(request.status != 200) {
-            heroImgURL = "/img/seasons/hero-default.jpg";
+            heroImgURL = "img/seasons/hero-default.jpg";
         }
 
         document.styleSheets[0].insertRule(
@@ -79,7 +79,7 @@
                     controller: 'SeasonDetail'
                   }).
                 otherwise({
-                    redirectTo: '/'
+                    redirectTo: '#/'
             });
         }
     ]);
