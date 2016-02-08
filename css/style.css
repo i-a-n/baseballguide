@@ -97,6 +97,7 @@ body {
 }
 .masthead:before {
   -webkit-filter: brightness(35%) sepia(0.49);
+  filter: brightness(35%) sepia(0.49);
   width: 100%;
   height: 32vw;
   background-size: cover;

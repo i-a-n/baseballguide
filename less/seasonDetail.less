@@ -46,24 +46,23 @@
 }
 
 .masthead:before {
-        //background-image: url(/img/seasons/2015/hero-1.jpg);
+    -webkit-filter: brightness(35%) sepia(.49);
+    filter: brightness(35%) sepia(.49);
+    width: 100%;
+    height: 32vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    content: "";
+    position:absolute;
 
-        -webkit-filter: brightness(35%) sepia(.49);
-        width: 100%;
-        height: 32vw;
-        background-size: cover;
-        background-repeat: no-repeat;
-        content: "";
-        position:absolute;
-
-        overflow:hidden;
+    overflow:hidden;
 }
 
 /** xs masthead: **/
 
 .masthead.xs {
     height: 48vw;
-    
+
     h1 {
         font-size: 8vw;
     }
