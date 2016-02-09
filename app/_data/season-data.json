@@ -1,0 +1,762 @@
+{
+    "1976" : {
+        "awards" : {
+          "american" : {
+            "MVP" : " "
+          },
+          "national" : {
+            "MVP" : " ",
+            "Rookie of the Year" : " "
+          }
+        },
+        "championFranchise" : " ",
+        "championName" : "Cincinatti Reds",
+        "hasBracket" : 0,
+        "hasCardImg" : 0,
+        "seasonRecap" : [ "Coming soon.","e.1" ],
+        "wsRecap" : [ "Coming soon.","e.1" ],
+        "year" : 1976
+    },
+    "1977" : {
+        "awards" : {
+          "american" : {
+            "MVP" : " "
+          },
+          "national" : {
+            "MVP" : " ",
+            "Rookie of the Year" : " "
+          }
+        },
+        "championFranchise" : " ",
+        "championName" : "New York Yankees",
+        "hasBracket" : 0,
+        "hasCardImg" : 0,
+        "seasonRecap" : [ "Coming soon.","e.1" ],
+        "wsRecap" : [ "Coming soon.","e.1" ],
+        "year" : 1977
+    },
+    "1978" : {
+        "awards" : {
+          "american" : {
+            "MVP" : " "
+          },
+          "national" : {
+            "MVP" : " ",
+            "Rookie of the Year" : " "
+          }
+        },
+        "championFranchise" : " ",
+        "championName" : "New York Yankees",
+        "hasBracket" : 0,
+        "hasCardImg" : 0,
+        "seasonRecap" : [ "Coming soon.","e.1" ],
+        "wsRecap" : [ "Coming soon.","e.1" ],
+        "year" : 1978
+    },
+    "1979" : {
+        "awards" : {
+          "american" : {
+            "MVP" : " "
+          },
+          "national" : {
+            "MVP" : " ",
+            "Rookie of the Year" : " "
+          }
+        },
+        "championFranchise" : " ",
+        "championName" : "Pittsburgh Pirates",
+        "hasBracket" : 0,
+        "hasCardImg" : 0,
+        "seasonRecap" : [ "Coming soon.","e.1" ],
+        "wsRecap" : [ "Coming soon.","e.1" ],
+        "year" : 1979
+    },
+    "1980" : {
+        "awards" : {
+          "american" : {
+            "MVP" : " "
+          },
+          "national" : {
+            "MVP" : " ",
+            "Rookie of the Year" : " "
+          }
+        },
+        "championFranchise" : " ",
+        "championName" : "Philadelphia Phillies",
+        "hasBracket" : 0,
+        "hasCardImg" : 0,
+        "seasonRecap" : [ "Coming soon.","e.1" ],
+        "wsRecap" : [ "Coming soon.","e.1" ],
+        "year" : 1980
+    },
+    "1981" : {
+        "awards" : {
+          "american" : {
+            "MVP" : " "
+          },
+          "national" : {
+            "MVP" : " ",
+            "Rookie of the Year" : " "
+          }
+        },
+        "championFranchise" : " ",
+        "championName" : "Los Angeles Dodgers",
+        "hasBracket" : 0,
+        "hasCardImg" : 0,
+        "seasonRecap" : [ "Coming soon.","e.1" ],
+        "wsRecap" : [ "Coming soon.","e.1" ],
+        "year" : 1981
+    },
+    "1982" : {
+        "awards" : {
+          "american" : {
+            "MVP" : " "
+          },
+          "national" : {
+            "MVP" : " ",
+            "Rookie of the Year" : " "
+          }
+        },
+        "championFranchise" : " ",
+        "championName" : "St. Louis Cardinals",
+        "hasBracket" : 0,
+        "hasCardImg" : 0,
+        "seasonRecap" : [ "Coming soon.","e.1" ],
+        "wsRecap" : [ "Coming soon.","e.1" ],
+        "year" : 1982
+    },
+    "1983" : {
+        "awards" : {
+          "american" : {
+            "MVP" : " "
+          },
+          "national" : {
+            "MVP" : " ",
+            "Rookie of the Year" : " "
+          }
+        },
+        "championFranchise" : " ",
+        "championName" : "Baltimore Orioles",
+        "hasBracket" : 0,
+        "hasCardImg" : 0,
+        "seasonRecap" : [ "Coming soon.","e.1" ],
+        "wsRecap" : [ "Coming soon.","e.1" ],
+        "year" : 1983
+    },
+    "1984" : {
+        "awards" : {
+          "american" : {
+            "MVP" : " "
+          },
+          "national" : {
+            "MVP" : " ",
+            "Rookie of the Year" : " "
+          }
+        },
+        "championFranchise" : " ",
+        "championName" : "Detroit Tigers",
+        "hasBracket" : 0,
+        "hasCardImg" : 0,
+        "seasonRecap" : [ "Coming soon.","e.1" ],
+        "wsRecap" : [ "Coming soon.","e.1" ],
+        "year" : 1984
+    },
+    "1985" : {
+        "awards" : {
+          "american" : {
+            "MVP" : " "
+          },
+          "national" : {
+            "MVP" : " ",
+            "Rookie of the Year" : " "
+          }
+        },
+        "championFranchise" : " ",
+        "championName" : "Kansas City Royals",
+        "hasBracket" : 0,
+        "hasCardImg" : 0,
+        "seasonRecap" : [ "Coming soon.","e.1" ],
+        "wsRecap" : [ "Coming soon.","e.1" ],
+        "year" : 1985
+    },
+    "1986" : {
+        "awards" : {
+          "american" : {
+            "MVP" : " "
+          },
+          "national" : {
+            "MVP" : " ",
+            "Rookie of the Year" : " "
+          }
+        },
+        "championFranchise" : " ",
+        "championName" : "New York Mets",
+        "hasBracket" : 0,
+        "hasCardImg" : 0,
+        "seasonRecap" : [ "Coming soon.","e.1" ],
+        "wsRecap" : [ "Coming soon.","e.1" ],
+        "year" : 1986
+    },
+    "1987" : {
+        "awards" : {
+          "american" : {
+            "MVP" : " "
+          },
+          "national" : {
+            "MVP" : " ",
+            "Rookie of the Year" : " "
+          }
+        },
+        "championFranchise" : " ",
+        "championName" : "Minnesota Twins",
+        "hasBracket" : 0,
+        "hasCardImg" : 0,
+        "seasonRecap" : [ "Coming soon.","e.1" ],
+        "wsRecap" : [ "Coming soon.","e.1" ],
+        "year" : 1987
+    },
+    "1988" : {
+        "awards" : {
+          "american" : {
+            "MVP" : " "
+          },
+          "national" : {
+            "MVP" : " ",
+            "Rookie of the Year" : " "
+          }
+        },
+        "championFranchise" : " ",
+        "championName" : "Los Angeles Dodgers",
+        "hasBracket" : 0,
+        "hasCardImg" : 0,
+        "seasonRecap" : [ "Coming soon.","e.1" ],
+        "wsRecap" : [ "Coming soon.","e.1" ],
+        "year" : 1988
+    },
+    "1989" : {
+        "awards" : {
+          "american" : {
+            "MVP" : " "
+          },
+          "national" : {
+            "MVP" : " ",
+            "Rookie of the Year" : " "
+          }
+        },
+        "championFranchise" : " ",
+        "championName" : "Oakland Athletics",
+        "hasBracket" : 0,
+        "hasCardImg" : 0,
+        "seasonRecap" : [ "Coming soon.","e.1" ],
+        "wsRecap" : [ "Coming soon.","e.1" ],
+        "year" : 1989
+    },
+    "1990" : {
+        "awards" : {
+          "american" : {
+            "MVP" : " "
+          },
+          "national" : {
+            "MVP" : " ",
+            "Rookie of the Year" : " "
+          }
+        },
+        "championFranchise" : " ",
+        "championName" : "Cincinatti Reds",
+        "hasBracket" : 0,
+        "hasCardImg" : 0,
+        "seasonRecap" : [ "Coming soon.","e.1" ],
+        "wsRecap" : [ "Coming soon.","e.1" ],
+        "year" : 1990
+    },
+    "1991" : {
+        "awards" : {
+          "american" : {
+            "MVP" : " "
+          },
+          "national" : {
+            "MVP" : " ",
+            "Rookie of the Year" : " "
+          }
+        },
+        "championFranchise" : " ",
+        "championName" : "Minnesota Twins",
+        "hasBracket" : 0,
+        "hasCardImg" : 0,
+        "seasonRecap" : [ "Coming soon.","e.1" ],
+        "wsRecap" : [ "Coming soon.","e.1" ],
+        "year" : 1991
+    },
+    "1992" : {
+        "awards" : {
+          "american" : {
+            "MVP" : " "
+          },
+          "national" : {
+            "MVP" : " ",
+            "Rookie of the Year" : " "
+          }
+        },
+        "championFranchise" : " ",
+        "championName" : "Toronto Blue Jays",
+        "hasBracket" : 0,
+        "hasCardImg" : 0,
+        "seasonRecap" : [ "Coming soon.","e.1" ],
+        "wsRecap" : [ "Coming soon.","e.1" ],
+        "year" : 1992
+    },
+    "1993" : {
+        "awards" : {
+          "american" : {
+            "MVP" : " "
+          },
+          "national" : {
+            "MVP" : " ",
+            "Rookie of the Year" : " "
+          }
+        },
+        "championFranchise" : " ",
+        "championName" : "Toronto Blue Jays",
+        "hasBracket" : 0,
+        "hasCardImg" : 0,
+        "seasonRecap" : [ "Coming soon.","e.1" ],
+        "wsRecap" : [ "Coming soon.","e.1" ],
+        "year" : 1993
+    },
+    "1994" : {
+        "awards" : {
+          "american" : {
+            "MVP" : " "
+          },
+          "national" : {
+            "MVP" : " ",
+            "Rookie of the Year" : " "
+          }
+        },
+        "championFranchise" : " ",
+        "championName" : "[No World Series]",
+        "hasBracket" : 0,
+        "hasCardImg" : 0,
+        "seasonRecap" : [ "Coming soon.","e.1" ],
+        "wsRecap" : [ "Coming soon.","e.1" ],
+        "year" : 1994
+    },
+    "1995" : {
+        "awards" : {
+          "american" : {
+            "MVP" : " "
+          },
+          "national" : {
+            "MVP" : " ",
+            "Rookie of the Year" : " "
+          }
+        },
+        "championFranchise" : " ",
+        "championName" : "Atlanta Braves",
+        "hasBracket" : 0,
+        "hasCardImg" : 0,
+        "seasonRecap" : [ "Coming soon.","e.1" ],
+        "wsRecap" : [ "Coming soon.","e.1" ],
+        "year" : 1995
+    },
+    "1996" : {
+        "awards" : {
+          "american" : {
+            "MVP" : " "
+          },
+          "national" : {
+            "MVP" : " ",
+            "Rookie of the Year" : " "
+          }
+        },
+        "championFranchise" : " ",
+        "championName" : "New York Yankees",
+        "hasBracket" : 0,
+        "hasCardImg" : 0,
+        "seasonRecap" : [ "Coming soon.","e.1" ],
+        "wsRecap" : [ "Coming soon.","e.1" ],
+        "year" : 1996
+    },
+    "1997" : {
+        "awards" : {
+          "american" : {
+            "MVP" : " "
+          },
+          "national" : {
+            "MVP" : " ",
+            "Rookie of the Year" : " "
+          }
+        },
+        "championFranchise" : " ",
+        "championName" : "Florida Marlins",
+        "hasBracket" : 0,
+        "hasCardImg" : 0,
+        "seasonRecap" : [ "Coming soon.","e.1" ],
+        "wsRecap" : [ "Coming soon.","e.1" ],
+        "year" : 1997
+    },
+    "1998" : {
+        "awards" : {
+          "american" : {
+            "MVP" : " "
+          },
+          "national" : {
+            "MVP" : " ",
+            "Rookie of the Year" : " "
+          }
+        },
+        "championFranchise" : " ",
+        "championName" : "New York Yankees",
+        "hasBracket" : 0,
+        "hasCardImg" : 0,
+        "seasonRecap" : [ "Coming soon.","e.1" ],
+        "wsRecap" : [ "Coming soon.","e.1" ],
+        "year" : 1998
+    },
+    "1999" : {
+        "awards" : {
+          "american" : {
+            "MVP" : " "
+          },
+          "national" : {
+            "MVP" : " ",
+            "Rookie of the Year" : " "
+          }
+        },
+        "championFranchise" : " ",
+        "championName" : "New York Yankees",
+        "hasBracket" : 0,
+        "hasCardImg" : 0,
+        "seasonRecap" : [ "Coming soon.","e.1" ],
+        "wsRecap" : [ "Coming soon.","e.1" ],
+        "year" : 1999
+    },
+    "2000" : {
+        "awards" : {
+          "american" : {
+            "MVP" : " "
+          },
+          "national" : {
+            "MVP" : " ",
+            "Rookie of the Year" : " "
+          }
+        },
+        "championFranchise" : " ",
+        "championName" : "New York Yankees",
+        "hasBracket" : 0,
+        "hasCardImg" : 0,
+        "seasonRecap" : [ "Coming soon.","e.1" ],
+        "wsRecap" : [ "Coming soon.","e.1" ],
+        "year" : 2000
+    },
+    "2001" : {
+        "awards" : {
+          "american" : {
+            "MVP" : " "
+          },
+          "national" : {
+            "MVP" : " ",
+            "Rookie of the Year" : " "
+          }
+        },
+        "championFranchise" : " ",
+        "championName" : "Arizona Diamondbacks",
+        "hasBracket" : 0,
+        "hasCardImg" : 0,
+        "seasonRecap" : [ "Coming soon.","e.1" ],
+        "wsRecap" : [ "Coming soon.","e.1" ],
+        "year" : 2001
+    },
+    "2002" : {
+        "awards" : {
+          "american" : {
+            "MVP" : " "
+          },
+          "national" : {
+            "MVP" : " ",
+            "Rookie of the Year" : " "
+          }
+        },
+        "championFranchise" : " ",
+        "championName" : "Anaheim Angels",
+        "hasBracket" : 0,
+        "hasCardImg" : 0,
+        "seasonRecap" : [ "Coming soon.","e.1" ],
+        "wsRecap" : [ "Coming soon.","e.1" ],
+        "year" : 2002
+    },
+    "2003" : {
+        "awards" : {
+          "american" : {
+            "MVP" : " "
+          },
+          "national" : {
+            "MVP" : " ",
+            "Rookie of the Year" : " "
+          }
+        },
+        "championFranchise" : " ",
+        "championName" : "Florida Marlins",
+        "hasBracket" : 0,
+        "hasCardImg" : 0,
+        "seasonRecap" : [ "Coming soon.","e.1" ],
+        "wsRecap" : [ "Coming soon.","e.1" ],
+        "year" : 2003
+    },
+    "2004" : {
+        "awards" : {
+          "american" : {
+            "MVP" : " "
+          },
+          "national" : {
+            "MVP" : " ",
+            "Rookie of the Year" : " "
+          }
+        },
+        "championFranchise" : " ",
+        "championName" : "Boston Red Sox",
+        "hasBracket" : 0,
+        "hasCardImg" : 0,
+        "seasonRecap" : [ "Coming soon.","e.1" ],
+        "wsRecap" : [ "Coming soon.","e.1" ],
+        "year" : 2004
+    },
+    "2005" : {
+        "awards" : {
+          "american" : {
+            "MVP" : " "
+          },
+          "national" : {
+            "MVP" : " ",
+            "Rookie of the Year" : " "
+          }
+        },
+        "championFranchise" : " ",
+        "championName" : "Chicago White Sox",
+        "hasBracket" : 0,
+        "hasCardImg" : 0,
+        "seasonRecap" : [ "Coming soon.","e.1" ],
+        "wsRecap" : [ "Coming soon.","e.1" ],
+        "year" : 2005
+    },
+    "2006" : {
+        "awards" : {
+          "american" : {
+            "MVP" : " "
+          },
+          "national" : {
+            "MVP" : " ",
+            "Rookie of the Year" : " "
+          }
+        },
+        "championFranchise" : " ",
+        "championName" : "St. Louis Cardinals",
+        "hasBracket" : 0,
+        "hasCardImg" : 0,
+        "seasonRecap" : [ "Coming soon.","e.1" ],
+        "wsRecap" : [ "Coming soon.","e.1" ],
+        "year" : 2006
+    },
+    "2007" : {
+        "awards" : {
+          "american" : {
+            "MVP" : " "
+          },
+          "national" : {
+            "MVP" : " ",
+            "Rookie of the Year" : " "
+          }
+        },
+        "championFranchise" : " ",
+        "championName" : "Boston Red Sox",
+        "hasBracket" : 0,
+        "hasCardImg" : 0,
+        "seasonRecap" : [ "Coming soon.","e.1" ],
+        "wsRecap" : [ "Coming soon.","e.1" ],
+        "year" : 2007
+    },
+    "2008" : {
+        "awards" : {
+          "american" : {
+            "MVP" : "D Pedroia (BOS)",
+            "Rookie of the Year" : "E Longoria (TB)",
+            "Cy Young" : "C Lee (CLE)",
+            "Batting Champ" : "J Mauer (MIN)"
+          },
+          "national" : {
+            "MVP" : "A Pujols (STL)",
+            "Rookie of the Year" : "G Soto (CHC)",
+            "Cy Young" : "T Lincecum (SF)",
+            "Batting Champ" : "C Jones (ATL)"
+          }
+        },
+        "championFranchise" : " ",
+        "championName" : "Philadelphia Phillies",
+        "hasBracket" : 1,
+        "hasCardImg" : 1,
+        "seasonRecap" : [ "Two official no-hitters (J Lester (BOS) and C Zambrano (CHC)), although J Weaver and J Arredondo (LAA) combined for eight no-hit innings in a loss to LAD.","PHI fielded one of the best teams in generations, including nationally-recognized performances from C Hamels, B Lidge, J Rollins, C Utley, R Howard, J Werth, and S Victorino." ],
+        "wsRecap" : [ "The Phillies beat the Tampa Bay Rays four games to one. PHI won game three with a walk-off infield single by C Ruiz, the first time in Series history that's happened.","Game five was an instant classic. Tied in the middle of the sixth, the weather was so bad the game was suspended. If TB hadn't scored in the top of the sixth, the World Series would have ended by being called off due to rain. When play was resumed two days later, PHI scored in the sixth and seventh to go ahead 4—3.", "B Lidge (PHI) struck out E Hinske to win the World Series." ],
+        "year" : 2008
+    },
+    "2009" : {
+        "awards" : {
+          "american" : {
+            "MVP" : "J Mauer (MIN)",
+            "Rookie of the Year" : "A Bailey (OAK)",
+            "Cy Young" : "Z Greinke (KC)",
+            "Batting Champ" : "J Mauer (MIN)"
+          },
+          "national" : {
+            "MVP" : "A Pujols (STL)",
+            "Rookie of the Year" : "C Coghlan (FLA)",
+            "Cy Young" : "T Lincecum (SF)",
+            "Batting Champ" : "H Ramirez (FLA)"
+          }
+        },
+        "championFranchise" : " ",
+        "championName" : "New York Yankees",
+        "hasBracket" : 1,
+        "hasCardImg" : 1,
+        "seasonRecap" : [ "Two no-hitters this year; M Buehrle (CHW) and J Sanchez (SF). Randy Johnson (SF) won his 300th game." ],
+        "wsRecap" : [ "The Yankees beat the Phillies, four games to two. This was NYY's first year in the New Yankee Stadium, and they sealed it with a Series win at home. Game six featured starts from Andy Pettitte and Pedro Martinez.","NYY had also won the Series in their first season in Old Yankee Stadium, in 1923." ],
+        "year" : 2009
+    },
+    "2010" : {
+        "awards" : {
+          "american" : {
+            "MVP" : "J Hamilton (TEX)",
+            "Rookie of the Year" : "N Feliz (TEXT)",
+            "Cy Young" : "F Hernandez (SEA)",
+            "Batting Champ" : "J Hamilton (TEX)"
+          },
+          "national" : {
+            "MVP" : "J Votto (CIN)",
+            "Rookie of the Year" : "B Posey (SF)",
+            "Cy Young" : "R Halladay (PHI)",
+            "Batting Champ" : "C Gonzalez (COL)"
+          }
+        },
+        "championFranchise" : " ",
+        "championName" : "San Francisco Giants",
+        "hasBracket" : 1,
+        "hasCardImg" : 1,
+        "seasonRecap" : [ "Dubbed 'The Year of the Pitcher', there were six no-hitters and fifteen pitchers recorded 200 or more strikeouts, including two by R Halladay (PHI) who threw one in game one of the NLDS. Not included in the no-hitters: Armando Galarraga, pitching for DET, recorded 26 straight outs before first base umpire Jim Joyce blew a call on what should have been the last out of a perfect game. This incident was widely believed to have shifted public opinion on video replay, leading to its expanded use seasons later." ],
+        "wsRecap" : [ "The Giants beat the Rangers four games to one in convincing fashion, scoring twenty runs in the first two games (winning the second game 9—0). Brian Wilson struck out Nelson Cruz to clinch the Series in Arlington, Texas.","This was the first Series win for SF since moving to San Francisco in 1958." ],
+        "year" : 2010
+    },
+    "2011" : {
+        "awards" : {
+          "american" : {
+            "MVP" : "J Verlander (DET)",
+            "Rookie of the Year" : "J Hellickson (TB)",
+            "Cy Young" : "J Verlander (TB)",
+            "Batting Champ" : "M Cabrera (DET)"
+          },
+          "national" : {
+            "MVP" : "R Braun (MIL)",
+            "Rookie of the Year" : "C Kimbrel (ATL)",
+            "Cy Young" : "C Kershaw (LAD)",
+            "Batting Champ" : "J Reyes (NYM)"
+          }
+        },
+        "championFranchise" : " ",
+        "championName" : "St. Louis Cardinals",
+        "hasBracket" : 1,
+        "hasCardImg" : 1,
+        "seasonRecap" : [ "There were three no-hitters this year, by Liriano (MIN), Verlander (DET), and Santana (LAA).","On the last day of the season, the post-season fate of four teams across both leagues was decided. In the NL, STL beat HOU to win a wild card berth after ATL lost to PHI. In the AL, TB defeated NYY with dramatic home runs in the 9th inning by Dan Johnson and later in extra innings by Evan Longoria to win the AL wild card berth after BAL defeated BOS, both also rivals in the AL East, on a walk-off single. This has been cited as the 'most thrilling 129 minutes in baseball history.'" ],
+        "wsRecap" : [ "The Cardinals beat the Rangers in seven games.","The Series was noted for its back-and-forth Game 6, in which the Cardinals erased a two-run deficit in the bottom of the ninth inning, then did it again in the 10th. In both innings, the Rangers were one strike away from their first World Series championship. The Cardinals won the game in the 11th inning on a walk-off home run by David Freese." ],
+        "year" : 2011
+    },
+    "2012" : {
+        "awards" : {
+          "american" : {
+            "MVP" : "M Cabrera (DET)",
+            "Rookie of the Year" : "M Trout (LAA)",
+            "Cy Young" : "D Price (TB)",
+            "Batting Champ" : "M Cabrera (DET)"
+          },
+          "national" : {
+            "MVP" : "B Posey (SF)",
+            "Rookie of the Year" : "B Harper (WAS)",
+            "Cy Young" : "R.A. Dickey (NYM)",
+            "Batting Champ" : "B Posey (SF)"
+          }
+        },
+        "championFranchise" : " ",
+        "championName" : "San Francisco Giants",
+        "hasBracket" : 1,
+        "hasCardImg" : 1,
+        "seasonRecap" : [ "This was the first postseason with two wildcard teams in each league. In the NL, STL won the newly-implemented 'wildcard playoff game' in historically controrversial fashion, with left field umpire Sam Holbrook calling an 'infield fly' out on an ATL outfield blooper in the bottom of the eigth inning, effectively stunting an ATL rally. STL went on to win the game, the NLDS, and then lose the league championship series to the Giants in seven games.","There were seven no-hitters, of which three were perfect games (Humber (CWS), Cain (SF), and Hernandez (SEA)). R.A. Dickey (TOR) set multiple NYM franchise records and became the first Cy Young knuckleballer in history." ],
+        "wsRecap" : [ "The Giants swept the Tigers, winning game four in extra innings. However, the game was played at DET, so Marco Scutaro's RBI single in the top of the tenth was not a walk-off World Series win. Sergio Romo struck out Miguel Cabrera to win the championship.","The Tigers became only the third team to be swept in the World Series after sweeping the League Championship Series (LCS), joining the 1990 Oakland Athletics and the 2007 Colorado Rockies with this distinction" ],
+        "year" : 2012
+    },
+    "2013" : {
+        "awards" : {
+          "american" : {
+            "MVP" : "M Cabrera (DET)",
+            "Rookie of the Year" : "W Myers (TB)",
+            "Cy Young" : "M Scherzer (DET)",
+            "Batting Champ" : "M Cabrera (DET)"
+          },
+          "national" : {
+            "MVP" : "A McCutchen (PIT)",
+            "Rookie of the Year" : "J Fernandez (MIA)",
+            "Cy Young" : "C Kershaw (LAD)",
+            "Batting Champ" : "M Cuddyer (COL)"
+          }
+        },
+        "championFranchise" : " ",
+        "championName" : "Boston Red Sox",
+        "hasBracket" : 1,
+        "hasCardImg" : 1,
+        "seasonRecap" : [ "Three no-hitters this year, including ones from Bailey (CIN) and Lincecum (SF).","This was HOU's first year in the AL, and with an odd number of teams in each league, season-round interleague games were played. Nearly every day featured at least one interleague match-up." ],
+        "wsRecap" : [ "The Red Sox beat the Cardinals in six games, celebrating a World Series victory at Fenway for the first time since 1918. Boston won game 6 in a rout by scoring six runs on the Cardinals rookie Michael Wacha, who had previously been unbeaten in the playoffs.","Game three marked the first time in baseball history a World Series game was decided on an obstruction call; Infamous umpire Jim Joyce awarded home plate to Allen Craig after a contentious tag at third base." ],
+        "year" : 2013
+    },
+    "2014" : {
+        "awards" : {
+          "american" : {
+            "MVP" : "M Trout (LAA)",
+            "Rookie of the Year" : "J Abreu (CWS)",
+            "Cy Young" : "C Kluber (CLE)",
+            "Batting Champ" : "J Altuve (HOU)"
+          },
+          "national" : {
+            "MVP" : "C Kershaw (LAD)",
+            "Rookie of the Year" : "J DeGrom (NYM)",
+            "Cy Young" : "C Kershaw (LAD)",
+            "Batting Champ" : "J Morneau (COL)"
+          }
+        },
+        "championFranchise" : " ",
+        "championName" : "San Francisco Giants",
+        "hasBracket" : 1,
+        "hasCardImg" : 1,
+        "seasonRecap" : [ "Bud Selig's last season as commissioner. Also the first season with greatly expanded video review, and the 'Buster Posey' rule enforced (no home plate collisions).", "Eight no-hitters, including efforts from Kershaw (LAD), Lincecum (SF), and Beckett (LAD)." ],
+        "wsRecap" : [ "The Giants beat the Royals in seven games. The Giants won Game 1 behind strong pitching while the Royals won Games 2 and 3 as their pitchers limited San Francisco to 2 runs per game. The Giants won Games 4 and 5, with Bumgarner's complete game shutout in Game 5. The Giants won the final game, 3–2, thanks to timely hitting, including the game-winning RBI by Michael Morse to score Pablo Sandoval. Bumgarner pitched five shutout innings in relief on two days' rest to clinch the championship, claiming the series MVP award.", "Generally considered an exciting series between two of the best teams in each league (although SF had been a wildcard team, they won 8 of their 10 playoff games going to the World Series). Meanwhile, KC had also been a wildcard team, but won 8 straight games to reach the WS." ],
+        "year" : 2014
+    },
+  "2015" : {
+    "awards" : {
+      "american" : {
+        "MVP" : "J Donaldson (TOR)",
+        "Rookie of the Year" : "C Correa (HOU)",
+        "Cy Young" : "D Keuchel (HOU)",
+        "Batting Champ" : "M Cabrera (DET)"
+      },
+      "national" : {
+        "MVP" : "B Harper (WAS)",
+        "Rookie of the Year" : "K Bryant (CHC)",
+        "Cy Young" : "J Arrieta (CHC)",
+        "Batting Champ" : "D Gordon (MIA)"
+      }
+    },
+    "championFranchise" : "",
+    "championName" : "Kansas City Royals",
+    "hasBracket" : 1,
+    "hasCardImg" : 1,
+    "seasonRecap" : [ "Seven no-hitters, including ones from Hamels (PHI), Iwakuma (SEA), Fiers (HOU), Arrieta (CHC), and two by Scherzer (WAS)", "TOR had one of the most dominant rosters in living memory, and with aggressive trading finished the season with a squad of stars that included Josh Donaldson, Edwin Encarnacion, Jose Reyes, Troy Tulowitzki, Jose Bautista, David Price, and more.", "Also worth noting HOU finished the season 86-76, beating NYY in the wildcard game and losing to KC in a close series after that. The year before, the Astros were one of the worst teams in the league, finishing at 70-92 with little hope for the future."],
+    "wsRecap" : [ "The Royals beat the Mets in five games, a fairly convincing series win. More than any statistical advantage they relied on team chemistry to notch win after win. They had lost the World Series the year before, sporting a 'win or failure' attitude the Mets didn't have.", "Another big postseason story were CHC, who slipped in as the second wildcard team, beating PIT in the wildcard game, then a franchise-cathartic beating of STL three games to one, before being swept by the Mets (who had barely beaten the Dodgers.)" ],
+    "year" : 2015
+  }
+}
