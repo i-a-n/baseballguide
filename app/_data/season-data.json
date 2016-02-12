@@ -541,20 +541,25 @@
     },
     "2006" : {
         "awards" : {
-          "american" : {
-            "MVP" : " "
-          },
-          "national" : {
-            "MVP" : " ",
-            "Rookie of the Year" : " "
-          }
+            "american" : {
+              "MVP" : "J Morneau (MIN)",
+              "Rookie of the Year" : "J Verlander (DET)",
+              "Cy Young" : "J Santana (MIN)",
+              "Batting Champ" : "J Mauer (MIN)"
+            },
+            "national" : {
+              "MVP" : "R Howard (PHI)",
+              "Rookie of the Year" : "H Ramirez (FLA)",
+              "Cy Young" : "B Webb (ARI)",
+              "Batting Champ" : "F Sanchez (PIT)"
+            }
         },
         "championFranchise" : " ",
         "championName" : "St. Louis Cardinals",
-        "hasBracket" : 0,
-        "hasCardImg" : 0,
-        "seasonRecap" : [ "Coming soon.","e.1" ],
-        "wsRecap" : [ "Coming soon.","e.1" ],
+        "hasBracket" : 1,
+        "hasCardImg" : 1,
+        "seasonRecap" : [ "One no-hitter this year by A Sanchez (FLA). A Soriano (WAS) becomes the fourth player in the '40-40' club (40 steals and 40 home runs)." ],
+        "wsRecap" : [ "The Cardinals beat the Tigers four games to one, becoming the fourth team (at the time) to celebrate a World Series victory during the first season in a new ballpark. They had the worst regular season record (83-78) of any Series winner in history.", "The series was billed as a cerebral showdown between two veteran managers: T LaRussa (STL) and J Leyland. Three of the five games were decided by two or fewer runs.","Due to a late season DET win streak, and an STL losing streak that saw HOU come within half a game of superceding them at the end of the regular season, DET was heavily favored to defeat STL. After five closely-contested games, however, A Wainwright (STL) struck B Inge out on a slider to win the World Series." ],
         "year" : 2006
     },
     "2007" : {
@@ -574,10 +579,10 @@
         },
         "championFranchise" : " ",
         "championName" : "Boston Red Sox",
-        "hasBracket" : 0,
-        "hasCardImg" : 0,
-        "seasonRecap" : [ "Coming soon.","e.1" ],
-        "wsRecap" : [ "Coming soon.","e.1" ],
+        "hasBracket" : 1,
+        "hasCardImg" : 1,
+        "seasonRecap" : [ "Three no-hitters this year (M Buehrle (CHW), J Verlander (DET), and C Buchholz (BOS)). On August 7, B Bonds (SF) homered off M Bacsik (WAS) at AT&T Park to hit career homerun #756, surpassing H Aaron for all-time MLB home run leader. On June 28, C Biggio (HOU) was thrown out at second trying to stretch is 3,000th hit to a double.","Of the eight postseason teams from 2006, only one of them (NYY) made the playoffs in 2007. The Mets squandered a seven-game division lead with only 17 games left to play, losing on the final game of the season to miss the playoffs. Also in the NL, COR beat SD in a one-game playoff for the wildcard spot, which went into extra innings. It ended with a play at the plate; batting champ M Holliday tagged up on a fly ball to right fielder B Giles and scored on a close head-first dive at the plate. It was speculated immediately that he did not tag home plate, although the call went unchallenged and COR continued to the playoffs." ],
+        "wsRecap" : [ "The Red Sox swept the Rockies to win their second Series since 2004. COL had won 20 of its previous 21 games to reach the Series, but were immediately blown out 13-1 at Fenway in game one. J Papelbon (BOS) struck out S Smith to secure the sweep at Coors Field." ],
         "year" : 2007
     },
     "2008" : {
