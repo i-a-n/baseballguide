@@ -559,13 +559,18 @@
     },
     "2007" : {
         "awards" : {
-          "american" : {
-            "MVP" : " "
-          },
-          "national" : {
-            "MVP" : " ",
-            "Rookie of the Year" : " "
-          }
+            "american" : {
+              "MVP" : "A Rodriguez (NYY)",
+              "Rookie of the Year" : "D Pedroia (BOS)",
+              "Cy Young" : "C Sabathia (CLE)",
+              "Batting Champ" : "M Ordóñez (DET)"
+            },
+            "national" : {
+              "MVP" : "J Rollins (PHI)",
+              "Rookie of the Year" : "R Braun (MIL)",
+              "Cy Young" : "J Peavy (SD)",
+              "Batting Champ" : "M Holliday (COL)"
+            }
         },
         "championFranchise" : " ",
         "championName" : "Boston Red Sox",
@@ -625,7 +630,7 @@
         "awards" : {
           "american" : {
             "MVP" : "J Hamilton (TEX)",
-            "Rookie of the Year" : "N Feliz (TEXT)",
+            "Rookie of the Year" : "N Feliz (TEX)",
             "Cy Young" : "F Hernandez (SEA)",
             "Batting Champ" : "J Hamilton (TEX)"
           },
