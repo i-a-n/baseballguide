@@ -505,20 +505,25 @@
     },
     "2004" : {
         "awards" : {
-          "american" : {
-            "MVP" : " "
-          },
-          "national" : {
-            "MVP" : " ",
-            "Rookie of the Year" : " "
-          }
+            "american" : {
+              "MVP" : "V Guerrero (ANA)",
+              "Rookie of the Year" : "B Crosby (OAK)",
+              "Cy Young" : "J Santana (MIN)",
+              "Batting Champ" : "I Suzuki (SEA)"
+            },
+            "national" : {
+              "MVP" : "B Bonds (SF)",
+              "Rookie of the Year" : "J Bay (PIT)",
+              "Cy Young" : "R Clemens (HOU)",
+              "Batting Champ" : "B Bonds (SF)"
+            }
         },
         "championFranchise" : " ",
         "championName" : "Boston Red Sox",
-        "hasBracket" : 0,
-        "hasCardImg" : 0,
-        "seasonRecap" : [ "Coming soon.","e.1" ],
-        "wsRecap" : [ "Coming soon.","e.1" ],
+        "hasBracket" : 1,
+        "hasCardImg" : 1,
+        "seasonRecap" : [ "There was one no-hitter, as R Johnson (ARI) pitched a perfect game.","I Suzuki (SEA) broke G Sisler's 84-year single-season hits record, with 262." ],
+        "wsRecap" : [ "The Red Sox easily swept the Cardinals to claim their first World Series since 1918, breaking the Curse of the Bambino. Perhaps more remarkable than the Series win was their League Championship Series comeback against the New York Yankees. With NYY up three games to none, and BOS down one run in the bottom of the ninth, D Roberts (BOS) stole second base and scored on B Mueller's single. D Ortiz (BOS) homered in the bottom of the twelfth, keeping BOS alive in the series. ","BOS would win the next three games in a row, including with a game six start by C Schilling (BOS) who pitched through a dislocated ankle tendon, bloodying his sock and winning the game. BOS defeated NYY at Yankee Stadium in game seven to be the first team in baseball history to come back from a 3-0 series deficit. This has been cited almost unanimously as the greatest comeback in sports history." ],
         "year" : 2004
     },
     "2005" : {
