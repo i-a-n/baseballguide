@@ -523,20 +523,25 @@
     },
     "2005" : {
         "awards" : {
-          "american" : {
-            "MVP" : " "
-          },
-          "national" : {
-            "MVP" : " ",
-            "Rookie of the Year" : " "
-          }
+            "american" : {
+              "MVP" : "A Rodriguez (NYY)",
+              "Rookie of the Year" : "H Street (OAK)",
+              "Cy Young" : "B Colon (LAA)",
+              "Batting Champ" : "M Young (TEX)"
+            },
+            "national" : {
+              "MVP" : "A Pujols (STL)",
+              "Rookie of the Year" : "R Howard (PHI)",
+              "Cy Young" : "C Carpenter (STL)",
+              "Batting Champ" : "D Lee (CHC)"
+            }
         },
         "championFranchise" : " ",
         "championName" : "Chicago White Sox",
-        "hasBracket" : 0,
-        "hasCardImg" : 0,
-        "seasonRecap" : [ "Coming soon.","e.1" ],
-        "wsRecap" : [ "Coming soon.","e.1" ],
+        "hasBracket" : 1,
+        "hasCardImg" : 1,
+        "seasonRecap" : [ "There were no no-hitters this season. The Montreal Expos moved to Washington, DC and renamed themselves the Washington Nationals to start the 2005 season.","This was also the first MLB season under a comprehensive steroid abuse policy, resulting from the multi-year BALCO scandal." ],
+        "wsRecap" : [ "The White Sox swept the Astros, giving them their first Series victory since 1917, breaking the curse of the Black Sox. The four games were remarkably close contests, each of them decided by two runs or fewer, and two of them requiring extra innings. Many commentators suggested afterwards a sweep could have gone either way.","To reach the Series, HOU defeated ATL in the Division Series in memorable fashion, C Burke hitting a walk-off homerun in the 18th inning at Minute Maid park, ending the longest postseason game ever played." ],
         "year" : 2005
     },
     "2006" : {
