@@ -451,56 +451,71 @@
     },
     "2001" : {
         "awards" : {
-          "american" : {
-            "MVP" : " "
-          },
-          "national" : {
-            "MVP" : " ",
-            "Rookie of the Year" : " "
-          }
+            "american" : {
+              "MVP" : "I Suzuki (SEA)",
+              "Rookie of the Year" : "I Suzuki (SEA)",
+              "Cy Young" : "R Clemens (NYY)",
+              "Batting Champ" : "I Suzuki (SEA)"
+            },
+            "national" : {
+              "MVP" : "B Bonds (SF)",
+              "Rookie of the Year" : "A Pujols (STL)",
+              "Cy Young" : "R Johnson (ARI)",
+              "Batting Champ" : "L Walker (COL)"
+            }
         },
         "championFranchise" : " ",
         "championName" : "Arizona Diamondbacks",
-        "hasBracket" : 0,
-        "hasCardImg" : 0,
-        "seasonRecap" : [ "Coming soon.","e.1" ],
-        "wsRecap" : [ "Coming soon.","e.1" ],
+        "hasBracket" : 1,
+        "hasCardImg" : 1,
+        "seasonRecap" : [ "One week's worth of games were postponed due to the September 11 terrorist attacks in New York. The Seattle Mariners tied the all-time high mark for wins in a season with 116.","Three no-hitters this season, including ones from H Nomo (BOS), A J Burnett (FLA), and B Smith (STL).","B Bonds (SF) broke M McGwire's single-season home run record on October 5 with home run #71 off LAD pitcher C H Park. He would finish with 73 home runs.","I Suzuki (SEA) won AL MVP, AL Rookie of the Year, the AL batting title, a gold glove and led the majors with 56 stolen bases." ],
+        "wsRecap" : [ "The Arizona Diamondbacks beat the New York Yankees in seven games to win their first franchise World Series. This was considered one of the greatest Series of all time, with two extra-inning games and three late-inning comebacks, as well as a walk-off World Series victory by L Gonzalez (ARI).","It was also considered the 'anti-storybook ending' with the relatively new franchise ARI beating the three-time reigning Series champions, NYY, who were symbolic of a city recovering from a terrorist attack less than two months prior.","C Schilling and R Johnson (ARI) were generally considered the greatest pitching duo of all time.","D Jeter (NYY) hit a walk-off home run in extra innings of game four, which occurred after midnight in the early hours of Nov 1, which was the first home run hit in the month of November in Major League history." ],
         "year" : 2001
     },
     "2002" : {
         "awards" : {
-          "american" : {
-            "MVP" : " "
-          },
-          "national" : {
-            "MVP" : " ",
-            "Rookie of the Year" : " "
-          }
+            "american" : {
+              "MVP" : "M Tejada (OAK)",
+              "Rookie of the Year" : "E Hinske (TOR)",
+              "Cy Young" : "B Zito (OAK)",
+              "Batting Champ" : "M Ramirez (BOS)"
+            },
+            "national" : {
+              "MVP" : "B Bonds (SF)",
+              "Rookie of the Year" : "J Jennings (COL)",
+              "Cy Young" : "R Johnson (ARI)",
+              "Batting Champ" : "B Bonds (SF)"
+            }
         },
         "championFranchise" : " ",
         "championName" : "Anaheim Angels",
-        "hasBracket" : 0,
-        "hasCardImg" : 0,
-        "seasonRecap" : [ "Coming soon.","e.1" ],
-        "wsRecap" : [ "Coming soon.","e.1" ],
+        "hasBracket" : 1,
+        "hasCardImg" : 1,
+        "seasonRecap" : [ "There was one no-hitter this year, D Lowe (BOS).","On July 9, the All-Star Game went into the 11th inning tied 7-7. At this point, both the AL and NL teams had run out of relief pitchers. It was decided in the middle of the 11th, by a meeting with commissioner Selig and both team managers, that if the NL did not score in the bottom of the inning the game would be declared a tie. The NL did not score, and the game was controversially ruled over. Following this, commissioner Selig announced that future All-Star Games would decide which league recieved home-field advantage in the World Series of that year." ],
+        "wsRecap" : [ "The Anaheim Angels beat the San Francisco Giants in seven games to become the first AL wild card winner to win the World Series.","The Giants, up 5-0 in the 7th inning of game six—nine outs away from a Series victory—gave up six runs to ANA to lose the game. They lost game seven 4-1 in Anaheim." ],
         "year" : 2002
     },
     "2003" : {
         "awards" : {
-          "american" : {
-            "MVP" : " "
-          },
-          "national" : {
-            "MVP" : " ",
-            "Rookie of the Year" : " "
-          }
+            "american" : {
+              "MVP" : "A Rodriguez (TEX)",
+              "Rookie of the Year" : "A Berroa (KC)",
+              "Cy Young" : "R Halladay (TOR)",
+              "Batting Champ" : "B Mueller (BOS)"
+            },
+            "national" : {
+              "MVP" : "B Bonds (SF)",
+              "Rookie of the Year" : "D Willis (FLA)",
+              "Cy Young" : "E Gagne (LAD)",
+              "Batting Champ" : "A Pujols (STL)"
+            }
         },
         "championFranchise" : " ",
         "championName" : "Florida Marlins",
-        "hasBracket" : 0,
-        "hasCardImg" : 0,
-        "seasonRecap" : [ "Coming soon.","e.1" ],
-        "wsRecap" : [ "Coming soon.","e.1" ],
+        "hasBracket" : 1,
+        "hasCardImg" : 1,
+        "seasonRecap" : [ "There were two no-hitters this season, one of which was a combined effort from six HOU pitchers at NYY, setting a record for most pitchers involved in a no-hitter.","In the eighth inning of Game 6 of the NLCS, with CHC ahead 3–0 and holding a 3 games to 2 lead in the best of seven series, several spectators attempted to catch a foul ball off the bat of FLA second baseman Luis Castillo. One of the fans – Steve Bartman – reached for the ball, deflecting it and disrupting a potential catch by CHC outfielder Moisés Alou. CHC went on to lose the game and lose the series. This made Bartman an instant anti-hero for the city of Chicago, generally seen as a continuation of a 'curse' against that team." ],
+        "wsRecap" : [ "The Marlins beat the Yankees in six games to win their first World Series since 1997. They had hired manager J McKeon as a mid-season replacement, who led the team to a 75-49 finish in the wild card position. J Beckett (FLA) pitched a complete game shutout in game six, tagging out J Posada on an infield grounder to win the World Series at Yankee Stadium." ],
         "year" : 2003
     },
     "2004" : {
