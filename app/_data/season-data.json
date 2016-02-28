@@ -433,20 +433,25 @@
     },
     "2000" : {
         "awards" : {
-          "american" : {
-            "MVP" : " "
-          },
-          "national" : {
-            "MVP" : " ",
-            "Rookie of the Year" : " "
-          }
+            "american" : {
+              "MVP" : "J Giambi (OAK)",
+              "Rookie of the Year" : "K Sasaki (SEA)",
+              "Cy Young" : "P Martinez (BOS)",
+              "Batting Champ" : "N Garciaparra (BOS)"
+            },
+            "national" : {
+              "MVP" : "J Kent (SF)",
+              "Rookie of the Year" : "R Furcal (ATL)",
+              "Cy Young" : "R Johnson (ARI)",
+              "Batting Champ" : "T Helton (COL)"
+            }
         },
         "championFranchise" : " ",
         "championName" : "New York Yankees",
-        "hasBracket" : 0,
-        "hasCardImg" : 0,
-        "seasonRecap" : [ "Coming soon.","e.1" ],
-        "wsRecap" : [ "Coming soon.","e.1" ],
+        "hasBracket" : 1,
+        "hasCardImg" : 1,
+        "seasonRecap" : [ "For the first time since 1989, here were no no-hitters this season.","Chuck Knoblauch removed himself from a Yankees game after making three throwing errors by the sixth inning. His case of 'the yips' continued the rest of the season and eventually ended his career." ],
+        "wsRecap" : [ "The Yankees beat the Mets in five games to win the first postseason 'subway series' since 1956.","NYY won game one with a walk-off hit by J Vizcaino, then game two by another one-run margin. Although NYM seemed to change the Series' momentum with a two-run win in game three, D Jeter (NYY) led game 4 off with a homerun, and NYY won the next two games. M Rivera (NYY) got NYM star catcher M Piazza to fly out to deep center field to win NYY's third Series in a row." ],
         "year" : 2000
     },
     "2001" : {
