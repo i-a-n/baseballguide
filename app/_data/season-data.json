@@ -1,4 +1,76 @@
 {
+    "1972" : {
+        "awards" : {
+          "american" : {
+            "MVP" : " "
+          },
+          "national" : {
+            "MVP" : " ",
+            "Rookie of the Year" : " "
+          }
+        },
+        "championFranchise" : " ",
+        "championName" : "Oakland Athletics",
+        "hasBracket" : 0,
+        "hasCardImg" : 0,
+        "seasonRecap" : [ "Coming soon.","e.1" ],
+        "wsRecap" : [ "Coming soon.","e.1" ],
+        "year" : 1972
+    },
+    "1973" : {
+        "awards" : {
+          "american" : {
+            "MVP" : " "
+          },
+          "national" : {
+            "MVP" : " ",
+            "Rookie of the Year" : " "
+          }
+        },
+        "championFranchise" : " ",
+        "championName" : "Oakland Athletics",
+        "hasBracket" : 0,
+        "hasCardImg" : 0,
+        "seasonRecap" : [ "Coming soon.","e.1" ],
+        "wsRecap" : [ "Coming soon.","e.1" ],
+        "year" : 1973
+    },
+    "1974" : {
+        "awards" : {
+          "american" : {
+            "MVP" : " "
+          },
+          "national" : {
+            "MVP" : " ",
+            "Rookie of the Year" : " "
+          }
+        },
+        "championFranchise" : " ",
+        "championName" : "Oakland Athletics",
+        "hasBracket" : 0,
+        "hasCardImg" : 0,
+        "seasonRecap" : [ "Coming soon.","e.1" ],
+        "wsRecap" : [ "Coming soon.","e.1" ],
+        "year" : 1974
+    },
+    "1975" : {
+        "awards" : {
+          "american" : {
+            "MVP" : " "
+          },
+          "national" : {
+            "MVP" : " ",
+            "Rookie of the Year" : " "
+          }
+        },
+        "championFranchise" : " ",
+        "championName" : "Cincinatti Reds",
+        "hasBracket" : 0,
+        "hasCardImg" : 0,
+        "seasonRecap" : [ "Coming soon.","e.1" ],
+        "wsRecap" : [ "Coming soon.","e.1" ],
+        "year" : 1975
+    },
     "1976" : {
         "awards" : {
           "american" : {
